@@ -26,10 +26,10 @@ A RAG-based clinical document intelligence assistant that lets healthcare profes
 ## 🗂 Project Structure
 smartdoc-ai/
 ├── backend/
-│   ├── main.py                 ← FastAPI app + session management
-│   ├── qabot.py                ← RAG pipeline (LangChain + FAISS)
-│   ├── requirements.txt        ← Python dependencies
-│   └── static/                 ← Built React frontend (served by FastAPI)
+│   ├── main.py
+│   ├── qabot.py
+│   ├── requirements.txt
+│   └── static/
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx
@@ -39,9 +39,11 @@ smartdoc-ai/
 │   │       ├── UploadPanel.jsx
 │   │       ├── ChatWindow.jsx
 │   │       └── MessageBubble.jsx
+│   ├── index.html
 │   └── package.json
-├── Dockerfile                  ← For Hugging Face Spaces deployment
-├── deploy.bat                  ← One-command deploy script
+├── Dockerfile
+├── deploy.bat
+├── .gitignore
 └── README.md
 
 ---
