@@ -4,9 +4,6 @@ A RAG-based clinical document intelligence assistant that lets healthcare profes
 
 ---
 
-
----
-
 ## ✨ Features
 
 | Feature | Description |
