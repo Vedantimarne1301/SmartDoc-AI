@@ -20,32 +20,6 @@ A RAG-based clinical document intelligence assistant that lets healthcare profes
 ## 🔗 Live Demo
 
 👉 [https://vedantimarne13-smartdoc-ai.hf.space](https://vedantimarne13-smartdoc-ai.hf.space)
-
----
-
-## 🗂 Project Structure
-smartdoc-ai/
-├── backend/
-│   ├── main.py
-│   ├── qabot.py
-│   ├── requirements.txt
-│   └── static/
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── main.jsx
-│   │   └── components/
-│   │       ├── UploadPanel.jsx
-│   │       ├── ChatWindow.jsx
-│   │       └── MessageBubble.jsx
-│   ├── index.html
-│   └── package.json
-├── Dockerfile
-├── deploy.bat
-├── .gitignore
-└── README.md
-
 ---
 
 ## 🛠 Tech Stack
