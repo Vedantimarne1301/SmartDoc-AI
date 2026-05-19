@@ -9,7 +9,7 @@ __pycache__/
 venv/
 .venv/
 env/
-my_env/
+my-env/
 
 # OS files
 .DS_Store
@@ -17,3 +17,9 @@ Thumbs.db
 
 # Python cache
 __pycache__/
+
+__pycache__/
+*.pyc
+backend/static/
+node_modules/
+frontend/dist/
